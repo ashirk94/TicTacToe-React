@@ -1,11 +1,17 @@
+html {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 body {
   font: 14px "Century Gothic", Futura, sans-serif;
-  margin: 20px;
-  padding-top: 50px;
 }
 
 .content-area {
-  margin: 30px;
+  margin: 0 auto;
 }
 
 ol, ul {
@@ -20,6 +26,7 @@ ol, ul {
 
 .status {
   margin-bottom: 10px;
+  font-size: 40px;
 }
 
 .red {
@@ -33,12 +40,12 @@ ol, ul {
   font-size: 24px;
   font-weight: bold;
   line-height: 34px;
-  height: 34px;
+  height: 100px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 100px;
   color: black;
   cursor: pointer;
 }
@@ -47,15 +54,15 @@ ol, ul {
   background: #fff;
   border: 1px solid #999;
   float: left;
-  font-size: 24px;
+  font-size: 80px;
   font-weight: bold;
-  line-height: 34px;
-  height: 34px;
+  line-height: 100px;
+  height: 100px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 100px;
   color: black;
 }
 
@@ -67,15 +74,15 @@ ol, ul {
   background: #fff;
   border: 1px solid #999;
   float: left;
-  font-size: 24px;
+  font-size: 80px;
   font-weight: bold;
-  line-height: 34px;
-  height: 34px;
+  line-height: 100px;
+  height: 100px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 100px;
   color:red;
 }
 
